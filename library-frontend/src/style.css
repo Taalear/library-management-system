@@ -1,0 +1,153 @@
+/* ===== 全局基础样式 ===== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Helvetica Neue', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+  background: #f7f5fa;  /* 暖灰白背景 */
+  color: #3c3a47;
+}
+
+/* ===== 滚动条美化 ===== */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #e8e4ed;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb {
+  background: #c9b8d6;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #b39ddb;
+}
+
+/* ===== 卡片通用样式 ===== */
+.el-card {
+  border-radius: 12px !important;
+  border: none !important;
+  box-shadow: 0 2px 12px rgba(179, 157, 219, 0.12) !important;
+  transition: all 0.3s ease;
+}
+.el-card:hover {
+  box-shadow: 0 4px 20px rgba(179, 157, 219, 0.20) !important;
+}
+
+/* ===== 按钮 ===== */
+.el-button {
+  border-radius: 8px !important;
+}
+.el-button--primary {
+  background-color: #b39ddb !important;
+  border-color: #b39ddb !important;
+}
+.el-button--primary:hover {
+  background-color: #9f86c0 !important;
+  border-color: #9f86c0 !important;
+}
+.el-button--success {
+  background-color: #a8c9a5 !important;  /* 柔和绿，与紫色协调 */
+  border-color: #a8c9a5 !important;
+}
+.el-button--success:hover {
+  background-color: #8fb88b !important;
+  border-color: #8fb88b !important;
+}
+.el-button--warning {
+  background-color: #f0c9a0 !important;
+  border-color: #f0c9a0 !important;
+}
+.el-button--warning:hover {
+  background-color: #eabb82 !important;
+  border-color: #eabb82 !important;
+}
+.el-button--danger {
+  background-color: #e8a0a0 !important;
+  border-color: #e8a0a0 !important;
+}
+.el-button--danger:hover {
+  background-color: #df8787 !important;
+  border-color: #df8787 !important;
+}
+
+/* ===== 输入框 ===== */
+.el-input__wrapper {
+  border-radius: 8px !important;
+  box-shadow: 0 0 0 1px #d1c4e9 inset !important;
+}
+.el-input__wrapper:hover {
+  box-shadow: 0 0 0 1px #b39ddb inset !important;
+}
+.el-input__wrapper.is-focus {
+  box-shadow: 0 0 0 2px rgba(179, 157, 219, 0.5) inset !important;
+}
+
+/* ===== 表格 ===== */
+.el-table {
+  border-radius: 12px !important;
+  overflow: hidden;
+}
+.el-table thead th {
+  background-color: #f0ecf5 !important;
+  color: #3c3a47 !important;
+  font-weight: 600;
+}
+.el-table--striped .el-table__body tr.el-table__row--striped td {
+  background-color: #faf8fc !important;
+}
+
+/* ===== 标签（Tag） ===== */
+.el-tag--success {
+  background-color: #e4f0e3 !important;
+  border-color: #b8d9b6 !important;
+  color: #3c6e3a !important;
+}
+.el-tag--danger {
+  background-color: #fce8e8 !important;
+  border-color: #f0c2c2 !important;
+  color: #a54e4e !important;
+}
+
+/* ===== 分页 ===== */
+.el-pagination .el-pager li.active {
+  background-color: #b39ddb !important;
+  color: #fff !important;
+}
+.el-pagination .el-pager li:hover {
+  color: #b39ddb !important;
+}
+
+/* ===== 对话框 ===== */
+.el-dialog {
+  border-radius: 16px !important;
+  box-shadow: 0 12px 48px rgba(179, 157, 219, 0.25) !important;
+}
+.el-dialog__header {
+  border-bottom: 1px solid #e8e4ed;
+  padding-bottom: 16px;
+}
+.el-dialog__title {
+  color: #3c3a47;
+  font-weight: 600;
+}
+
+/* ===== 菜单（侧边栏内部使用） ===== */
+.el-menu {
+  border-right: none !important;
+}
+
+/* ===== 页面标题 ===== */
+.page-header {
+  font-size: 20px;
+  font-weight: 600;
+  color: #3c3a47;
+  margin-bottom: 20px;
+  padding-left: 12px;
+  border-left: 4px solid #b39ddb;
+}

@@ -1,0 +1,20 @@
+# ===== Java 后端 =====
+target/
+*.class
+*.jar
+*.war
+*.log
+.idea/
+*.iml
+*.iws
+*.ipr
+.mvn/
+
+# ===== Vue 前端 =====
+node_modules/
+dist/
+.DS_Store
+*.local
+
+# ===== 系统文件 =====
+Thumbs.db

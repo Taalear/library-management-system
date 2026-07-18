@@ -1,0 +1,22 @@
+# 创建 .gitignore 文件
+echo "# Java 后端编译文件" > .gitignore
+echo "**/target/" >> .gitignore
+echo "**/.idea/" >> .gitignore
+echo "**/*.iml" >> .gitignore
+echo "**/.mvn/" >> .gitignore
+echo "**/mvnw*" >> .gitignore
+echo "" >> .gitignore
+echo "# 前端依赖" >> .gitignore
+echo "**/node_modules/" >> .gitignore
+echo "**/dist/" >> .gitignore
+echo "" >> .gitignore
+echo "# 上传的图片（头像）" >> .gitignore
+echo "uploads/" >> .gitignore
+echo "" >> .gitignore
+echo "# 日志文件" >> .gitignore
+echo "*.log" >> .gitignore
+echo "" >> .gitignore
+echo "# 系统文件" >> .gitignore
+echo ".DS_Store" >> .gitignore
+echo "Thumbs.db" >> .gitignore
+echo "**/application.properties" >> .gitignore
